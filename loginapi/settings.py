@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-15l-r*fzrfuoo!rznse3eo!t##-%r_m#(r58zs(+m_4(@*jj9a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost','192.168.1.24']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','192.168.1.24','.vercel.app',"*"]
 
 
 # CORS_ORIGIN_WHITELIST = [
@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'loginapi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydemo',
+        'NAME': 'mydemo',   #kukudkuec2
         'HOST' : 'localhost',
         'PORT' : '5432',
         'USER' : 'postgres',
